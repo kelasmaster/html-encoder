@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Character Encoder/Decoder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>HTML Character Encoder/Decoder</h1>
+
+    <!-- Encode Section -->
+    <div class="section">
+      <label for="encode-input">Enter Text to Encode:</label>
+      <input type="text" id="encode-input" placeholder="e.g., &">
+      <button id="encode-btn">Encode</button>
+      <p><strong>Encoded Output:</strong> <span id="encoded-output"></span></p>
+    </div>
+
+    <!-- Decode Section -->
+    <div class="section">
+      <label for="decode-input">Enter Text to Decode:</label>
+      <input type="text" id="decode-input" placeholder="e.g., &amp;">
+      <button id="decode-btn">Decode</button>
+      <p><strong>Decoded Output:</strong> <span id="decoded-output"></span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
